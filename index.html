@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i|Nunito:300,300i" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">      
+        <link rel="shortcut icon" type="image/png" href="#">
+        
+        <title>Clinis Dev &mdash; Complet IT solution</title>
+    </head>
+    <body>
+        <!-- Header Section -->
+        <section class="home-box">
+                <nav id="header" class="navbar navbar-fixed-top">
+                        <div id="header-container" class="navbar-container">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a id="brand" class="navbar-brand" href="#">Clinis</a>
+                            </div>
+                            <div id="navbar" class="collapse navbar-collapse">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li><a  href="index.html"> Home </a></li>
+                                        <li><a  onclick="openNav()"> Contact us </a></li>
+                                        <li><button class="btn btn-alfa" onclick="openNav()"> get a quote </button></li>
+                                      </ul>
+                                      <!-- Get quote Slide  Sidebar -->
+                                      <div id="myNav" class="overlay">
+                                        <!-- Button to close the overlay navigation -->
+                                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                      
+                                        <!-- Overlay content -->
+                                        <div class="overlay-content">
+                                                <div class="col-md-6 col-lg-6 col-sm-12">
+                                                    <div class="comment-form">
+                                                        <p>We're all working together, <br/> that's the secret.</p>
+                                                            <form>
+                                                                <div class="col-md-6 col-lg-6 col-sm-12">
+                                                                    <input type="text" value="First Name " onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'First Name';}" required="">
+                                                                    <input type="text" value="Last Name " onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Last Name';}" required="">
+                                                                    <input type="text" value="Current Address " onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Current Address';}" required="">
+                                                                    
+                                                                </div>
+                                                                <div class="col-md-6 col-lg-6 col-sm-12">
+                                                                        <input type="text" value="Middle Name " onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'First Name';}" required="">
+                                                                    <input type="email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email (will not be published)*';}" required="">
+                                                                    <input type="text" value="Phone NO" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Phone NO';}" required="">
+                                                                
+                                                                        
+                                                                        
+                                                            </div>
+                                                            <textarea onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Message';}" required="">Your Message...</textarea>
+                                                            <input type="submit" value="Send Your Message" >
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                            
+                                            <div class="col-md-6 col-lg-6 col-sm-12">
+                                                <div class="header__joinus-text">Contact Us</div>
+                                                 <div class="contact-information">
+                                                    <h4>Contact us</h4>
+                                                    <li> <span>Location</span> <span>info@clinis.com.au</span></li>
+                                                    <li> <span>Contact No</span> <span>info@clinis.com.au</span></li>
+                                                    <li> <span>Email</span> <span>info@clinis.com.au</span></li>
+                                                    <li> <span>Fax</span> <span>info@clinis.com.au</span></li> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                          
+                                        </div>
+                                      </div>
+                                      <!-- Get quote Slide  Sidebar -->
+                                      
+                            </div>
+                            <!-- /.nav-collapse -->
+                        </div><!-- /.container -->
+                    </nav><!-- /.navbar -->
+            <div class="container-fluid"></div>
+            <div class="home">
+                    <div class="slogan-text-box">
+                            <h1>Innovating for a Healthier World</h1>
+                            <div class="header__joinus-text">Come Join US</div>
+                            <p>Together, performing at a higher standard.</p>
+                            <div class="form__group">
+                                    <input type="email" class="form__input" placeholder="Email address" id="email" required="">
+                                    <button class="btn header__btn"> Get Started </button>
+                            </div>
+        
+                        </div>
+                    </div>
+            </div>
+        </section>
+            <!-- Home Section End -->
+
+            <!-- Section Showcase Start -->
+            <section class="section section-features js--section-features">
+               
+                <div class="container">
+                        <div class="row section-icon">
+                                <h2>DELIVERING DIGITAL SOLUTIONS</h2>
+                                <p class="long-copy">CLINIS Pvt Ltd, a privately owned company situated at Shantinagar-34, outsources information technology related work to companies overseas. Currently it focuses on software development for pathologies, and outsourcing business process of overseas companies.</p>
+                            </div>
+               <div class="row js--waypoint-1">
+                   
+                    <div class="col-md-3 col-sm-12 feature-box">
+                            <svg class="icon-big">
+                                    <use xlink:href="img/sprite.svg#icon-global"></use>
+                                </svg>
+                        <h3>Available 360 days</h3>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim animi voluptate repellat doloribus temporibus eveniet cumque dignissimos. Facere necessitatibus alias inventore, molestias possimus veniam soluta tempore! Alias quisquam harum voluptate!</p>
+                    </div>
+                    <div class="col-md-3 col-sm-12 feature-box">
+                            <svg class="icon-big">
+                                    <use xlink:href="img/sprite.svg#icon-trophy"></use>
+                                </svg>
+                        <h3>Ready in 20 days</h3>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim animi voluptate repellat doloribus temporibus eveniet cumque dignissimos. Facere necessitatibus alias inventore, molestias possimus veniam soluta tempore! Alias quisquam harum voluptate!</p>
+                    </div>
+                    <div class="col-md-3 col-sm-12 feature-box">
+                            <svg class="icon-big">
+                                    <use xlink:href="img/sprite.svg#icon-presentation"></use>
+                                </svg>
+                        <h3>100% bug free</h3>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim animi voluptate repellat doloribus temporibus eveniet cumque dignissimos. Facere necessitatibus alias inventore, molestias possimus veniam soluta tempore! Alias quisquam harum voluptate!</p>
+                    </div>
+                    <div class="col-md-3 col-sm-12 feature-box">
+                            <svg class="icon-big">
+                                    <use xlink:href="img/sprite.svg#icon-key"></use>
+                                </svg>
+                        <h3>Order anything</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim animi voluptate repellat doloribus temporibus eveniet cumque dignissimos. Facere necessitatibus alias inventore, molestias possimus veniam soluta tempore! Alias quisquam harum voluptate!</p>
+                    </div> 
+                </div>
+            </div>
+            </section>
+<!-- Section Vision Starts -->
+<div class="section-vision">
+        
+        <ul class="gallery_box">
+                <li>
+                    <a href="#0"><img src="img/data_entry.jpg">
+                    <div class="box_data">
+                        <span>Data Entry</span>
+                    </div></a>
+                </li>
+                    <li>
+                    <a href="#0"><img src="img/data_audit.jpg">
+                    <div class="box_data">
+                        <span>Data Audit</span>
+                    </div></a>
+                </li>
+                    <li>
+                    <a href="#0"><img src="img/data_mining.jpg">
+                    <div class="box_data">
+                        <span>Data Mining</span>
+                    </div></a>
+                </li>
+                        <li>
+                    <a href="#0"><img src="img/data_quality.jpg">
+                    <div class="box_data">
+                        <span>Data Quality</span>
+                    </div></a>
+                </li>
+                        <li style="    position: relative;">
+                    <a href="#0"><img src="img/software_development.jpg">
+                    <div class="box_data">
+                        <span>Software Development</span>
+                    </div></a>
+                </li>
+                        <li>
+                    <a href="#0"><img src="img/dec_making.jpg">
+                    <div class="box_data">
+                        <span>Decision making</span>
+                    </div></a>
+                </li>
+                
+            </ul>
+            </div>
+    </section>
+    <!-- Section Vision End -->
+        <!-- Section showcase Start -->
+            <div class="section-showcase">
+                <div class="showcase-text">
+                    <h2 class="showcase__heading-secondary">
+                        Exciting tours for adventurous people
+                    </h2>
+                </div>
+                <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="composition">
+                            <img srcset="img/banner-4.png"
+                            sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                            alt="Photo 1"
+                            class="composition__photo composition__photo--p1"
+                            src="img/banner-4.png">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 showcase-txt">
+                        <div>1</div>
+                        <h3 class="showcase-quote">You're going to fall in love with nature</h3>
+                        <p class="showcase-paragraph">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur
+                            ducimus quam nisi exercitationem omnis earum qui.
+                        </p>
+                        
+                        <div>2</div>
+                        <h3 class="showcase-quote">Live adventures like you never have before</h3>
+                        <p class="showcase-paragraph">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nulla deserunt voluptatum nam.
+                        </p>
+
+                        <div>3</div>
+                        <h3 class="showcase-quote">Live adventures like you never have before</h3>
+                        <p class="showcase-paragraph">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nulla deserunt voluptatum nam.
+                        </p>
+
+                        <a href="#" class="btn-text">Learn more &rarr;</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <!-- Section Showcase End -->
+            
+
+            <!-- Team Section Starts -->
+            <!-- <div class="container-fluid no-padding-team">
+                <div class="title-arch">Meet Our Team </div>
+                    <div class="section-team">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 project wow animated animated4 fadeInLeft">
+                        <div class="project-hover">
+                            <h2>TITLE</h2>
+                            
+                            <hr />
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar ex pulvinar est laoreet ullamcorper.</p>
+                            <a href="#">See Full Profile</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 project project-2 wow animated animated3 fadeInLeft">
+                        <div class="project-hover">
+                            <h2>TITLE</h2>
+                            <hr />
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar ex pulvinar est laoreet ullamcorper.</p>
+                            <a href="#">See Full Profile</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 project project-3 wow animated animated2 fadeInLeft">
+                        <div class="project-hover">
+                            <h2>TITLE</h2>
+                            <hr />
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar ex pulvinar est laoreet ullamcorper.</p>
+                            <a href="#">See Full Profile</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 project project-4 wow animated fadeInLeft">
+                        <div class="project-hover">
+                            <h2>TITLE</h2>
+                            <hr />
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar ex pulvinar est laoreet ullamcorper.</p>
+                            <a href="#">See Full Profile</a>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div> -->
+            <!-- Team Section End -->
+
+            <!-- Section Coustomer -->
+            <div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
+                    <div class="testimonial4_header">
+                        <h4>what our clients are saying</h4>
+                    </div>
+                    <ol class="carousel-indicators">
+                        <li data-target="#testimonial4" data-slide-to="0" class="active"></li>
+                        <li data-target="#testimonial4" data-slide-to="1"></li>
+                        <li data-target="#testimonial4" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <div class="testimonial4_slide">
+                                <img src="img/realtor-1.JPG" class="img-circle img-responsive" />
+                                <p>Lorem ipsum dolor sit amet adipiscing elit am nibh unc varius facilisis eros ed erat in in velit quis arcu ornare laoreet urabitur. Lorem ipsum dolor sit amet adipiscing elit am nibh unc varius facilisis eros ed erat in in velit quis arcu ornare laoreet urabitur.</p>
+                                <h4>Ben Hanna</h4>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonial4_slide">
+                                <img src="img/realtor-2.jpg" class="img-circle img-responsive" />
+                                <p>Lorem ipsum dolor sit amet adipiscing elit am nibh unc varius facilisis eros ed erat in in velit quis arcu ornare laoreet urabitur.Lorem ipsum dolor sit amet adipiscing elit am nibh unc varius facilisis eros ed erat in in velit quis arcu ornare laoreet urabitur.</p>
+                                <h4>Ben Hanna</h4>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonial4_slide">
+                                <img src="img/realtor-1.JPG" class="img-circle img-responsive" />
+                                <p>Lorem ipsum dolor sit amet adipiscing elit am nibh unc varius facilisis eros ed erat in in velit quis arcu ornare laoreet urabitur.Lorem ipsum dolor sit amet adipiscing elit am nibh unc varius facilisis eros ed erat in in velit quis arcu ornare laoreet urabitur.</p>
+                                <h4>Ben Hanna</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#testimonial4" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#testimonial4" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+            <!-- Section Coustomer -->
+
+            <!-- section map start -->
+            <div class="map-box" id="signup">
+			
+                    <div class="map">
+                            
+                    </div>
+                    <div class="col-md-6 col-sm-12 form-box">
+                        <div class="row">
+                            <h2 class="form-box-header">We're happy to hear from you</h2>
+                        </div>
+                        <div class="row">
+                            <form method="post" action="#" class="contact-form">
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-12  span_1_of_3">
+                                        <label for="name">Name</label>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12  span_2_of_3">
+                                        <input type="text" name="name" id="name" placeholder="Your name" required>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-12  span_1_of_3">
+                                        <label for="email">Email</label>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12  span_2_of_3">
+                                        <input type="email" name="email" id="email" placeholder="Your Email" required>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-12  span_1_of_3">
+                                        <label for="find-us">How did you find us</label>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12  span_2_of_3">
+                                        <select name="find-us" id="find-us" >
+                                            <option value="Friends" selected>Friends</option>
+                                            <option value="search">Search Engine</option>
+                                            <option value="ad">Advertisement</option>
+                                            <option value="other">Other</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-12  span_1_of_3">
+                                        <label>Newsletter?</label>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12  span_2_of_3">
+                                        <input type="checkbox" name="news" id="news" checked> Yes, Plese
+                                     </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-12  span_1_of_3">
+                                        <label>Drop Us an message</label>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12  span_2_of_3">
+                                        <textarea name="message" placeholder="Your Message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-12 span_1_of_3">
+                                        <label>&nbsp;</label>
+                                    </div>
+                                    <div class="colc0l-md-12 col-sm-12 span_2_of_3">
+                                        <input type="submit" value="Send it!">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- Section Map End -->
+                <!-- Section Request Demo -->
+                <!-- <div class="request-demo">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="demo-text">
+                                <h2>Request a Demo</h2>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                                <div class="demo-text">
+                                        <h2>Request a Demo</h2>
+                                    </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- Section Request Demo --> 
+                <!-- Footer -->
+                <div class="search-text"> 
+                        <div class="container">
+                          <div class="row text-center">
+                            <div class="form">
+                                 <form id="search-form" class="form-search form-horizontal">
+                                     <input type="email" class="input-email" placeholder="Email">
+                                     <button type="submit" class="btn-search">Get In Touch</button>
+                                 </form>
+                             </div>
+                         
+                           </div>         
+                        </div>     
+                     </div>
+                     
+                     
+                     <footer>
+                      <div class="container">
+                        <div class="row text-center">
+                        
+                                  <div class="col-md-6 col-sm-6 col-xs-12">
+                                   <ul class="list-inline">
+                                              
+                                                <li>
+                                                     <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+                                                </li>
+                                                
+                                                <li>
+                                                     <a href="#"><i class="fa fa-dropbox fa-2x"></i></a>
+                                                </li>
+                                                
+                                                <li>
+                                                     <a href="#"><i class="fa fa-flickr fa-2x"></i></a> 
+                                                </li>
+                                               
+                                                <li>
+                                                     <a href="#"><i class="fa fa-github fa-2x"></i></a>
+                                                </li>
+                                                 
+                                                <li>
+                                                     <a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
+                                                </li>
+                                                
+                                                <li>
+                                                     <a href="#"><i class="fa fa-tumblr fa-2x"></i></a>
+                                                </li>
+                                                 
+                                                <li>
+                                                     <a href="#"><i class="fa fa-google-plus fa-2x"></i></a>
+                                               </li>
+                                               
+                                      </ul>
+                                    </div>
+                            
+                                  <div class="col-md-6 col-sm-6 col-xs-12">
+                                   <ul class="menu list-inline">
+                                              
+                                          <li>
+                                             <a href="#">Home</a>
+                                           </li>
+                                                
+                                           <li>
+                                              <a href="#">About</a>
+                                           </li>
+                                                
+                                           <li>
+                                             <a href="#">Our Story</a>
+                                           </li>
+                                                
+                                           <li>
+                                              <a href="#">Gallery </a>
+                                           </li>
+                                                
+                                           <li>
+                                             <a href="#">Contact</a>
+                                          </li>
+                                
+                                  </ul>
+                                </div>
+                            
+                            
+                            </div> 
+                         </div>
+                     </footer>
+                     
+                     
+                     <div class="copyright">
+                      <div class="container">
+                        
+                          <div class="row text-center">
+                              <p>Copyright © 2017 All rights reserved</p>
+                          </div>
+                          
+                         </div>
+                     </div>
+                     
+                <!-- Footer End          -->
+                
+            
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>              
+        <Script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js"></Script>
+        <script src="http://maps.google.com/maps/api/js"></script>
+        <script src="js/main.js"></script>
+        
+    </body>
+</html>
